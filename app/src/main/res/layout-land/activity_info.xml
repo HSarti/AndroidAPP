@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/titleInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tips for Your Plants"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Watering Tips -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tips for Watering Plants"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Water slowly for deep absorption.\n• Keep soil slightly moist, not soaked.\n• Check the top layer before watering."
+            android:textSize="18sp"
+            android:textColor="#424242"
+            android:layout_marginTop="6dp" />
+
+        <Button
+            android:id="@+id/btnWatering"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learn more"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:minHeight="64dp"
+            android:backgroundTint="#66BB6A"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp" />
+
+        <!-- Maintenance Tips -->
+        <TextView
+            android:layout_marginTop="28dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tips for Plant Maintenance"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Remove dry leaves.\n• Rotate the plant weekly.\n• Wipe leaves gently to help photosynthesis."
+            android:textSize="18sp"
+            android:textColor="#424242"
+            android:layout_marginTop="6dp" />
+
+        <Button
+            android:id="@+id/btnMaintenance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learn more"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:minHeight="64dp"
+            android:backgroundTint="#66BB6A"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp" />
+
+        <!-- Vacation Tips -->
+        <TextView
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tips for When You Travel"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Move plants out of intense sunlight.\n• Water deeply before leaving.\n• Use simple self-watering tricks."
+            android:textSize="18sp"
+            android:textColor="#424242"
+            android:layout_marginTop="6dp" />
+
+        <Button
+            android:id="@+id/btnVacation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learn more"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:minHeight="64dp"
+            android:backgroundTint="#66BB6A"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp" />
+
+        <!-- FAO Section -->
+        <TextView
+            android:layout_marginTop="28dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is FAO?"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The FAO is a United Nations agency that works to defeat hunger and promote sustainable agriculture worldwide."
+            android:textSize="18sp"
+            android:textColor="#424242"
+            android:layout_marginTop="6dp" />
+
+        <Button
+            android:id="@+id/btnFAO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learn more"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:minHeight="64dp"
+            android:backgroundTint="#66BB6A"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

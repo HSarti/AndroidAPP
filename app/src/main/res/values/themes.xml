@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SmartPlantGuardian" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme colors -->
+        <item name="colorPrimary">@color/blue_system_bar</item>
+        <item name="colorPrimaryContainer">@color/blue_system_bar</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Status bar / navigation bar colors -->
+        <item name="android:statusBarColor">@color/blue_system_bar</item>
+        <item name="android:navigationBarColor">@color/blue_system_bar</item>
+        <item name="android:windowLightStatusBar">false</item> <!-- white icons -->
+    </style>
+    <style name="ToolbarTitleLarge" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.SmartPlantGuardian" parent="Base.Theme.SmartPlantGuardian" />
+
+</resources>
