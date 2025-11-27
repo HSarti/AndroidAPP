@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How This App Works"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:layout_marginBottom="32dp"/>
+
+        <!-- MAIN SCREEN -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Main Screen"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="On the main screen, you will see a circle showing how wet the soil is and a graph that shows how the plant’s water changes over time. A clear message tells you if your plant is dry, healthy, or needs water. There are also three buttons: Plant Care, Check Plant Light, and Plant Watering History. At the top-right corner, the menu button (three dots) lets you access How to Use the App, Your Plant Care History, How to Care for Plants, and Madrid Gardens Data."
+            android:textSize="20sp"
+            android:textColor="#424242"
+            android:layout_marginBottom="22dp"/>
+
+        <!-- GRAPH -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Understanding the Graph"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The graph shows how much water is in the soil. This helps you quickly see if your plant is dry, healthy, or has too much water:"
+            android:textSize="20sp"
+            android:textColor="#424242"
+            android:layout_marginBottom="6dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="12dp"
+            android:layout_marginBottom="22dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• 0%–40%: Plant is Dry! Needs water."
+                android:textSize="20sp"
+                android:textColor="#424242"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• 41%–80%: Plant is Healthy! Just right."
+                android:textSize="20sp"
+                android:textColor="#424242"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• 81%–100%:  Plant is too wet! Stop watering and let the soil dry."
+                android:textSize="20sp"
+                android:textColor="#424242"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+
+        <!-- PLANT CARE -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plant Care"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tap the Plant Care button whenever you water or fertilize your plant with I watered the plant and I fertilized the plant buttons. And you can see the latest watering and fertilizing done by anyone at home."
+            android:textSize="20sp"
+            android:textColor="#424242"
+            android:layout_marginBottom="22dp"/>
+
+        <!-- LIGHT SENSOR -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Plant Light"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Use the Light Check button to see if your plant gets enough sunlight. The app will clearly tell you if the light is Too Dim, Moderate or Perfect for your plant."
+            android:textSize="20sp"
+            android:textColor="#424242"
+            android:layout_marginBottom="22dp"/>
+
+        <!-- HISTORY -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plant Watering History"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This button takes you to the Plant Watering History page. Whenever your plant’s moisture changes, it is saved here so you can see it later when you reconnect. You can also clear the history with one button."
+            android:textSize="20sp"
+            android:textColor="#424242"
+            android:layout_marginBottom="22dp"/>
+
+        <!-- HOW TO USE -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to Use the App"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You're on this page! It explains everything in a simple and friendly way for anyone to understand."
+            android:textSize="20sp"
+            android:textColor="#424242"
+            android:layout_marginBottom="22dp"/>
+
+        <!-- FAMILY HISTORY -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Plant Care History"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="the button leads you to the page when The app remembers what you do, even if you are away or not near the plant device. Your family can see the latest updates when you reconnect."
+            android:textSize="20sp"
+            android:textColor="#424242"
+            android:layout_marginBottom="22dp"/>
+
+        <!-- TIPS -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to Care for Plants"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simple tips to help your plant grow strong, with extra links if you want to learn more."
+            android:textSize="20sp"
+            android:textColor="#424242"
+            android:layout_marginBottom="22dp"/>
+
+        <!-- MADRID DATA -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Madrid Gardens Data"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Download official information about gardens in Madrid. It's easy to read and explore."
+            android:textSize="20sp"
+            android:textColor="#424242"
+            android:layout_marginBottom="40dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

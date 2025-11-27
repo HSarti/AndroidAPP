@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F2F8F3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- HEADER -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plant Care Tips"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingBottom="16dp" />
+
+        <!-- CARD: WATERING -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="4dp"
+            android:layout_margin="4dp"
+            android:clipToOutline="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Best Watering Practices"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textColor="#1B5E20"
+                android:paddingBottom="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Water the soil slowly to ensure deep root hydration. Allow the top layer of soil to dry before watering again. Water in the early morning whenever possible."
+                android:textColor="#4E4E4E"
+                android:textSize="18sp"
+                android:paddingBottom="14dp" />
+
+            <Button
+                android:id="@+id/btnWatering"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Learn more"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#2E7D32"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp" />
+        </LinearLayout>
+
+        <!-- CARD: PLANT TYPES -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tips by Plant Type"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textColor="#1B5E20"
+                android:paddingBottom="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cacti need very little water and lots of sun. Herbs prefer slightly moist soil. Tropical plants enjoy humidity and warm environments."
+                android:textColor="#4E4E4E"
+                android:textSize="18sp"
+                android:paddingBottom="14dp" />
+
+            <Button
+                android:id="@+id/btnPlantTypes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Learn more"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#2E7D32" />
+        </LinearLayout>
+
+        <!-- CARD: SYMPTOMS -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Signs of Overwatering and Underwatering"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textColor="#1B5E20"
+                android:paddingBottom="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Overwatering causes yellow leaves and soft stems. Underwatering results in dry soil and brown crispy leaves."
+                android:textColor="#4E4E4E"
+                android:textSize="18sp"
+                android:paddingBottom="14dp" />
+
+            <Button
+                android:id="@+id/btnSymptoms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Learn more"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#2E7D32" />
+        </LinearLayout>
+
+        <!-- CARD: LIGHT -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Light Recommendations"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textColor="#1B5E20"
+                android:paddingBottom="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Most plants prefer bright indirect light. Succulents need plenty of sunlight. Shade-loving plants should be kept away from strong sun."
+                android:textColor="#4E4E4E"
+                android:textSize="18sp"
+                android:paddingBottom="14dp" />
+
+            <Button
+                android:id="@+id/btnLight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Learn more"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#2E7D32" />
+        </LinearLayout>
+
+        <!-- CARD: SOIL -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Soil and Nutrient Tips"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textColor="#1B5E20"
+                android:paddingBottom="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose soil that drains well and contains organic matter. Fertilize lightly during the growing season for healthier plants."
+                android:textColor="#4E4E4E"
+                android:textSize="18sp"
+                android:paddingBottom="14dp" />
+
+            <Button
+                android:id="@+id/btnSoil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Learn more"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#2E7D32" />
+        </LinearLayout>
+
+        <!-- CARD: FAO SOIL PORTAL -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FAO Soil Portal"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textColor="#1B5E20"
+                android:paddingBottom="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visit the FAO Soil Portal to explore global soil resources, best practices, and detailed guidance for sustainable soil management."
+                android:textColor="#4E4E4E"
+                android:textSize="18sp"
+                android:paddingBottom="14dp" />
+
+            <Button
+                android:id="@+id/btnFao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Learn more"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#2E7D32" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

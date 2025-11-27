@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvDeviceHelpTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to Use the Device?"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/tvDeviceHelpText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:lineSpacingExtra="6dp"
+            android:text="1. To turn on the Smart Plant Device, plug in the charger or battery. When it has power, the red light turns on.\n\n2. Put the sensor into the soil of your plant.\n\n3. Turn on Bluetooth in your phone settings and connect to the device named ESP32-SOIL.\n\n4. Make sure your phone is connected to the internet.\n\n5. Open the Smart Plant Guardian app.\n\n6. The app will connect to the device automatically.\n\n7. You will see the soil moisture and the plant status: Dry, Healthy, or Overwatered.\n\n8. If the device stops sending data, you will see a warning: 'Sensor not sending data!' and a pop-up saying 'Sensor disconnected or off.'\n\n9. Keep the sensor in the soil to get correct readings.\n\n10. If something is not working:\n- Check that Bluetooth is ON.\n- Check your Wi-Fi or mobile internet.\n- Restart the app.\n- Make sure the device has power and the red light is ON.\n- Make sure the sensor is well placed in the soil.\n- If it still does not work, check the wires: Red cable(VCC to VIN) , Black cable(GND to GND), and Yellow cable (DATA to D35).\n\nRESTART THE APP AFTER EACH CHECK !!" />
+
+    </LinearLayout>
+
+</ScrollView>

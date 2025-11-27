@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#F2F8F3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- HEADER -->
+        <TextView
+            android:id="@+id/titleInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plant Care Tips"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingBottom="20dp" />
+
+        <!-- CARD: WATERING TIPS -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:padding="24dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp"
+            android:clipToOutline="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Watering Your Plants"
+                android:textStyle="bold"
+                android:textSize="26sp"
+                android:textColor="#1B5E20"
+                android:paddingBottom="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Water slowly so roots get enough moisture.\n• Keep soil slightly damp, not too wet.\n• Check top 2–3 cm of soil before watering."
+                android:textSize="20sp"
+                android:textColor="#4E4E4E"
+                android:paddingBottom="16dp" />
+
+            <Button
+                android:id="@+id/btnWatering"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Learn more"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#2E7D32"
+                android:paddingLeft="28dp"
+                android:paddingRight="28dp"
+                android:minHeight="72dp" />
+        </LinearLayout>
+
+        <!-- CARD: MAINTENANCE TIPS -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:padding="24dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plant Maintenance"
+                android:textStyle="bold"
+                android:textSize="26sp"
+                android:textColor="#1B5E20"
+                android:paddingBottom="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Remove dry leaves often.\n• Turn the plant weekly for even light.\n• Gently clean leaves to help growth."
+                android:textSize="20sp"
+                android:textColor="#4E4E4E"
+                android:paddingBottom="16dp" />
+
+            <Button
+                android:id="@+id/btnMaintenance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Learn more"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#2E7D32"
+                android:minHeight="72dp" />
+        </LinearLayout>
+
+        <!-- CARD: VACATION TIPS -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:padding="24dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tips for When You Travel"
+                android:textStyle="bold"
+                android:textSize="26sp"
+                android:textColor="#1B5E20"
+                android:paddingBottom="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Move plants out of direct sun.\n• Water well before leaving.\n• Use self-watering devices if needed."
+                android:textSize="20sp"
+                android:textColor="#4E4E4E"
+                android:paddingBottom="16dp" />
+
+            <Button
+                android:id="@+id/btnVacation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Learn more"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#2E7D32"
+                android:minHeight="72dp" />
+        </LinearLayout>
+
+        <!-- CARD: FAO -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:padding="24dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is FAO?"
+                android:textStyle="bold"
+                android:textSize="26sp"
+                android:textColor="#1B5E20"
+                android:paddingBottom="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FAO is the United Nations agency that fights hunger and promotes sustainable farming around the world."
+                android:textSize="20sp"
+                android:textColor="#4E4E4E"
+                android:paddingBottom="16dp" />
+
+            <Button
+                android:id="@+id/btnFAO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Learn more"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#2E7D32"
+                android:minHeight="72dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

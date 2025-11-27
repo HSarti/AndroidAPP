@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#E8F5E9">
+
+    <!-- Page Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore Madrid Gardens"
+        android:textSize="32sp"
+        android:textColor="#2E7D32"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btnLoadGardens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="16dp"
+        android:text="Show Gardens"
+        android:textSize="22sp"
+        android:backgroundTint="#43A047"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"/>
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:id="@+id/scrollViewGardens"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnLoadGardens"
+        android:layout_marginTop="20dp"
+        android:clipToPadding="false">
+
+        <TextView
+            android:id="@+id/tvGardensContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click the button to see the list of gardens in Madrid."
+            android:textSize="20sp"
+            android:padding="12dp"
+            android:textColor="#1B5E20"
+            android:background="#C8E6C9"
+            android:textIsSelectable="true"
+            android:autoLink="map"
+            android:linksClickable="true"
+            android:lineSpacingExtra="4dp"
+            android:scrollbars="vertical" />
+
+    </ScrollView>
+
+</RelativeLayout>
